@@ -1,0 +1,53 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans:wght@300&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Unicase:wght@300&family=Open+Sans:wght@300;400&family=Playfair+Display+SC&display=swap');
+
+/* Header start */
+ #mainHeader{
+     padding: 10px;
+     font-size: 80px;
+     letter-spacing: 1em;
+     font-family: 'Cormorant Unicase', serif;    }
+/* Header Finish */
+
+/* Subheader start */
+
+#subHeader{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+        letter-spacing: 0.5em;
+}
+
+#banner{
+    width: 100%;
+}
+/* subheader end */
+
+/* navbar start */
+#navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+#navbar a {
+    text-decoration: none;
+
+}
+/* navbar end */
+
+#domains{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#domains a {
+    color: white;
+}
