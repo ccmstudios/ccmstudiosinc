@@ -1,53 +1,140 @@
 /* Font Imports */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans:wght@300&family=Playfair+Display+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Unicase:wght@300&family=Open+Sans:wght@300;400&family=Playfair+Display+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans:wght@300&family=Playfair+Display+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Unicase:wght@300&family=Open+Sans:wght@300;400&family=Playfair+Display+SC&display=swap");
 
 /* Header start */
- #mainHeader{
-     padding: 10px;
-     font-size: 80px;
-     letter-spacing: 1em;
-     font-family: 'Cormorant Unicase', serif;    }
+#mainHeader {
+  padding: 10px;
+  font-size: 80px;
+  letter-spacing: 1em;
+  font-family: "Cormorant Unicase", serif;
+}
 /* Header Finish */
 
 /* Subheader start */
 
-#subHeader{
-    font-size: 40px;
-    font-family: 'Open Sans', sans-serif;
-        letter-spacing: 0.5em;
+#subHeader {
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5em;
 }
 
-#banner{
-    width: 100%;
+#banner {
+  width: 100%;
+  height: auto;
 }
 /* subheader end */
 
 /* navbar start */
-#navbar{
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
+#navbar {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
 }
 
 #navbar a {
-    text-decoration: none;
-
+  text-decoration: none;
 }
 /* navbar end */
 
-#domains{
-    padding: 10px;
-    background-color: red;
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+#domains {
+  padding: 40px;
+  background-color: black;
+  color: blue;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 #domains a {
-    color: white;
+  color: lightblue;
+  font-size: 6em;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient();
+  line-height: 0.7em;
+  outline: none;
+  animation: animate 3s linear infinite;
+  text-decoration: none;
 }
+
+
+
+
+@keyframes animate {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90.1%,
+  92% {
+      color: #0e3742;
+    text-shadow: none;
+}
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+      color: #fff;
+      text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
+      0 0 80px #03bcf4, 0 0 160px #03bcf4;
+    }
+}
+#domains h3{
+   color: maroon; 
+   text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient();
+  line-height: 0.7em;
+  outline: none;
+  animation: animate 3s linear infinite;
+}
+
+
+#footer {
+    display: inline-block;
+    justify-content: left;
+    color: #800020;
+    text-shadow: 1px 1px black;
+    background: linear-gradient(45deg, lightblue, pink);
+    width: 100%;
+    padding: 10px;
+  }
+  
+  #footer img {
+    width: 120px;
+    height: auto;
+  }
+  
+  #footer h4 {
+    font-size: smaller;
+  }
+  
+  #social h3 {
+    font-size: 16px;
+  }
+  
+  #social ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  
+  #social img {
+    width: 60px;
+  }
