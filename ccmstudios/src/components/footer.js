@@ -10,7 +10,7 @@ class Footer extends React.Component {
         <br></br>
         <h1>CCM Studios LLC</h1>
         <h3>
-          <strong>Phone:</strong>
+          <strong>Text:</strong>
           (980) 279-9329
         </h3>
         <h3>
@@ -18,8 +18,7 @@ class Footer extends React.Component {
           ccmstudiosinc@gmail.com
         </h3>
         <br></br>
-        <Social />
-        <img src={Logo} alt="footer amped life" />
+        {/* <Social /> */}
         <h4 className="text-muted">
           Website designed by RZN8 Publishing and CCM Studios LLC
         </h4>

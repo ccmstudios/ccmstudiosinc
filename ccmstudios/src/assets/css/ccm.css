@@ -11,6 +11,16 @@
   letter-spacing: 1em;
   font-family: "Cormorant Unicase", serif;
 }
+
+#mainHeader h1{
+    font-size: 200px;
+    transform: scale(1);
+}
+
+#mainHeader h1:hover{
+    transform: scale(0.8);
+    transition: ease 0.7s;
+}
 /* Header Finish */
 
 /* Subheader start */
@@ -173,6 +183,7 @@
     background: linear-gradient(45deg, gray, white);
     width: 100%;
     padding: 10px;
+    height: fit-content;
   }
   
   #footer img {

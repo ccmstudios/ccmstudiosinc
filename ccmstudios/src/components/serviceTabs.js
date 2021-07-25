@@ -30,7 +30,7 @@ const ServiceTabs = () => {
           <Button variant="light">
             {" "}
             <a href="https://www.ccm-domains.com" target="_blank">
-              Get Started
+            <h2>Get Started</h2>
             </a>
           </Button>
         </Tab>
@@ -58,7 +58,7 @@ const ServiceTabs = () => {
           <Button variant="light">
             {" "}
             <a href="https://www.ccm-domains.com" target="_blank">
-              Get Started
+            <h2>Get Started</h2>
             </a>
           </Button>
         </Tab>
@@ -92,7 +92,7 @@ const ServiceTabs = () => {
           <Button variant="light">
             {" "}
             <a href="https://www.ccm-domains.com" target="_blank">
-              Get Started
+              <h2>Get Started</h2>
             </a>
           </Button>
         </Tab>

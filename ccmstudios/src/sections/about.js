@@ -30,9 +30,8 @@ class About extends React.Component {
 
                 </p>
             </Card.Text>
-            <Button variant="light"> <a href='https://www.ccm-domains.com' target='_blank'>Get Started</a></Button>
           </Card.Body>
-          <Card.Footer className="text-muted">2 days ago</Card.Footer>
+          <Card.Footer className="text-muted">CCM Studios LLC</Card.Footer>
         </Card>
       </div>
     );
