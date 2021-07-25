@@ -105,13 +105,72 @@
   animation: animate 3s linear infinite;
 }
 
+#about{
+    background-color: black;
+    color: white;
+}
+
+#about p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#services{
+    
+   justify-content: center;
+    background-color: black;
+    color: white;
+    
+}
+
+#services h5{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#services h3{
+    color: maroon;
+    font-size: 2em;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient();
+    line-height: 0.7em;
+    outline: none;
+    animation: animate 2s linear infinite;
+    text-decoration: none;
+}
+
+.mb-3{
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+#servicetabs{
+    display: inline-block;
+    padding: 30px;
+    border: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact{
+    background-color: black;
+    color: white;
+}
+#clients{
+    background-color: black;
+    color: white;
+}
 
 #footer {
     display: inline-block;
     justify-content: left;
-    color: #800020;
+    color: #03bcf4;
     text-shadow: 1px 1px black;
-    background: linear-gradient(45deg, lightblue, pink);
+    background: linear-gradient(45deg, gray, white);
     width: 100%;
     padding: 10px;
   }

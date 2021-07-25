@@ -29,8 +29,8 @@ class Home extends React.Component{
 {/* Sections */}
 <About/>
 <Services/>
-<Clients/>
-<Contact/>
+{/* <Clients/>
+<Contact/> */}
 {/* Contact */}
             <div>
                 <Domains/>
