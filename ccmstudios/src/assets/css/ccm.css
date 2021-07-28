@@ -12,14 +12,14 @@
   font-family: "Cormorant Unicase", serif;
 }
 
-#mainHeader h1{
-    font-size: 200px;
-    transform: scale(1);
+#mainHeader h1 {
+  font-size: 200px;
+  transform: scale(1);
 }
 
-#mainHeader h1:hover{
-    transform: scale(0.8);
-    transition: ease 0.7s;
+#mainHeader h1:hover {
+  transform: scale(0.8);
+  transition: ease 0.7s;
 }
 /* Header Finish */
 
@@ -73,9 +73,6 @@
   text-decoration: none;
 }
 
-
-
-
 @keyframes animate {
   0%,
   18%,
@@ -86,9 +83,9 @@
   80%,
   90.1%,
   92% {
-      color: #0e3742;
+    color: #0e3742;
     text-shadow: none;
-}
+  }
   18.1%,
   20.1%,
   30%,
@@ -99,14 +96,14 @@
   90%,
   92.1%,
   100% {
-      color: #fff;
-      text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
+    color: #fff;
+    text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
       0 0 80px #03bcf4, 0 0 160px #03bcf4;
-    }
+  }
 }
-#domains h3{
-   color: maroon; 
-   text-transform: uppercase;
+#domains h3 {
+  color: maroon;
+  text-transform: uppercase;
   width: 100%;
   text-align: center;
   -webkit-box-reflect: below 1px linear-gradient();
@@ -115,34 +112,110 @@
   animation: animate 3s linear infinite;
 }
 
-#about{
-    background-color: black;
-    color: white;
+#about {
+  background-color: black;
+  color: white;
 }
 
-#about p{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+#about p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#services{
-    
-   justify-content: center;
-    background-color: black;
-    color: white;
-    
+#services {
+  justify-content: center;
+  background-color: black;
+  color: white;
 }
 
-#services h5{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+#services h5 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#services h3{
+#services h3 {
+  color: maroon;
+  font-size: 2em;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient();
+  line-height: 0.7em;
+  outline: none;
+  animation: animate 2s linear infinite;
+  text-decoration: none;
+}
+
+.mb-3 {
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+#servicetabs {
+  display: inline-block;
+  padding: 30px;
+  border: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#contact {
+  background-color: black;
+  color: white;
+}
+#clients {
+  background-color: black;
+  color: white;
+}
+
+#footer {
+  display: inline-block;
+  justify-content: left;
+  color: black;
+  text-shadow: 1px 1px gray;
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  height: fit-content;
+}
+
+#footer img {
+  width: 120px;
+  height: auto;
+}
+
+#footer h4 {
+  font-size: smaller;
+}
+
+#social h3 {
+  font-size: 16px;
+}
+
+#social ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+#social img {
+  width: 60px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 667px) /* mobile devices */ {
+  #mainHeader h1 {
+    font-size: 120px;
+    width: 100%;
+    letter-spacing: normal;
+  }
+  #subHeader{
+    font-size: 20px;
+  }
+  #services h3 {
     color: maroon;
-    font-size: 2em;
+    font-size: 1em;
     text-transform: uppercase;
     width: 100%;
     text-align: center;
@@ -151,60 +224,66 @@
     outline: none;
     animation: animate 2s linear infinite;
     text-decoration: none;
-}
-
-.mb-3{
-    justify-content: space-evenly;
+    line-height: normal;
+  }
+  #domains a {
+    color: lightblue;
+    font-size: 4em;
+    letter-spacing: 15px;
     text-transform: uppercase;
-    font-size: 24px;
-}
-
-#servicetabs{
-    display: inline-block;
-    padding: 30px;
-    border: 100px;
-    justify-content: space-evenly;
-    align-items: center;
-}
-#contact{
-    background-color: black;
-    color: white;
-}
-#clients{
-    background-color: black;
-    color: white;
-}
-
-#footer {
-    display: inline-block;
-    justify-content: left;
-    color: black;
-    text-shadow: 1px 1px gray;
-    background-color: white;
     width: 100%;
-    padding: 10px;
-    height: fit-content;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient();
+    line-height: 0.7em;
+    outline: none;
+    animation: animate 3s linear infinite;
+    text-decoration: none;
+    line-height: normal;
   }
-  
-  #footer img {
-    width: 120px;
-    height: auto;
+
+  #domains h3{
+    line-height: normal;
   }
-  
-  #footer h4 {
-    font-size: smaller;
+}
+
+@media only screen and (min-width: 668px) and (max-width: 1366px) /* tablets to Chromebooks */ {
+  #mainHeader h1 {
+    font-size: 150px;
+    width: 100%;
+    letter-spacing: normal;
   }
-  
-  #social h3 {
-    font-size: 16px;
+
+  #subHeader{
+    font-size: 20px;
   }
-  
-  #social ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
+  #services h3 {
+    color: maroon;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient();
+    line-height: 0.7em;
+    outline: none;
+    animation: animate 2s linear infinite;
+    text-decoration: none;
+    line-height: normal;
   }
-  
-  #social img {
-    width: 60px;
+
+  #domains a {
+    color: lightblue;
+    font-size: 4em;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient();
+    line-height: 0.7em;
+    outline: none;
+    animation: animate 3s linear infinite;
+    text-decoration: none;
   }
+  #domains h3{
+    line-height: normal;
+  }
+}
