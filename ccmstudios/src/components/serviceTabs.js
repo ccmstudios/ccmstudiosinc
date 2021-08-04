@@ -1,6 +1,7 @@
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import Button from "react-bootstrap/Button";
+import Startbutton from "./startbutton";
 
 const ServiceTabs = () => {
   return (
@@ -27,12 +28,7 @@ const ServiceTabs = () => {
             the client complete control over their web building experience.
           </h5>
           <br></br>
-          <Button variant="light">
-            {" "}
-            <a href="https://www.ccm-domains.com" target="_blank">
-            <h2>Get Started</h2>
-            </a>
-          </Button>
+         <Startbutton/>
         </Tab>
         <Tab
           bg="dark"
@@ -55,12 +51,8 @@ const ServiceTabs = () => {
           </h5>
           <br></br>
 
-          <Button variant="light">
-            {" "}
-            <a href="https://www.ccm-domains.com" target="_blank">
-            <h2>Get Started</h2>
-            </a>
-          </Button>
+          <Startbutton/>
+
         </Tab>
         <Tab
           bg="dark"
@@ -89,12 +81,8 @@ const ServiceTabs = () => {
           </h5>
           <br></br>
 
-          <Button variant="light">
-            {" "}
-            <a href="https://www.ccm-domains.com" target="_blank">
-              <h2>Get Started</h2>
-            </a>
-          </Button>
+          <Startbutton/>
+
         </Tab>
       </Tabs>
     </div>
