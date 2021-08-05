@@ -12,13 +12,15 @@ import Footer from '../components/footer'
 class Home extends React.Component{
     render(){
         return(
-            <div>
-                <div>
+            <div >
+                <div id='home'>
                     
 <Domains/>
 
 <Header/>
 <Subheader/>
+<br></br>
+<br></br>
                 </div>
 
 {/* Header CCM in large letters */}
@@ -28,6 +30,10 @@ class Home extends React.Component{
 {/* Intro */}
 {/* Sections */}
 <About/>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 <Services/>
 {/* <Clients/>
 <Contact/> */}

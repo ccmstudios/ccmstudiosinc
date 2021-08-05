@@ -9,7 +9,7 @@ const ServiceTabs = () => {
       <Tabs
         bg="dark"
         text="light"
-        id="uncontrolled-tab-example"
+        id="DIY"
         className="mb-3"
       >
         <Tab bg="dark" text="light" eventKey="home" title="DIY Web Design">
@@ -28,9 +28,10 @@ const ServiceTabs = () => {
             the client complete control over their web building experience.
           </h5>
           <br></br>
-         <Startbutton/>
+          <Startbutton />
         </Tab>
         <Tab
+          id="webOnly"
           bg="dark"
           text="light"
           eventKey="profile"
@@ -51,10 +52,11 @@ const ServiceTabs = () => {
           </h5>
           <br></br>
 
-          <Startbutton/>
-
+          <Startbutton />
         </Tab>
+
         <Tab
+          id="fullPackage"
           bg="dark"
           text="light"
           eventKey="contact"
@@ -81,8 +83,7 @@ const ServiceTabs = () => {
           </h5>
           <br></br>
 
-          <Startbutton/>
-
+          <Startbutton />
         </Tab>
       </Tabs>
     </div>

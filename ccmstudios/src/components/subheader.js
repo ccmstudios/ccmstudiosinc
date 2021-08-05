@@ -6,7 +6,7 @@ const Subheader = () => {
   return (
     <header id="subHeader">
       <h3>Creative Concepts Manifested</h3>
-      {/* <Navbar/> */}
+      <Navbar/>
       {/* <Banner/> */}
     </header>
   );

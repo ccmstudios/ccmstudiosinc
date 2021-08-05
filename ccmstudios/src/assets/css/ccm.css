@@ -32,9 +32,8 @@
 /* Subheader start */
 
 #subHeader {
-  font-size: 40px;
+  font-size: 20px;
   font-family: "Open Sans", sans-serif;
-  letter-spacing: 0.5em;
 }
 
 #banner {
@@ -50,6 +49,9 @@
   justify-content: space-evenly;
 }
 
+#navbar li{
+  text-shadow: 1px 1px black;
+}
 #navbar a {
   text-decoration: none;
 }
@@ -118,6 +120,8 @@
   animation: animate 3s linear infinite;
 }
 
+
+
 #about {
   background-color: black;
   color: white;
@@ -133,6 +137,23 @@
   justify-content: center;
   background-color: black;
   color: white;
+}
+
+#about h1{
+  text-shadow: 2px 2px #03bcf4;
+}
+
+#about h1:hover{
+  letter-spacing: 0.5em;
+  transition: ease 0.5s;
+}
+#services h1{
+  text-shadow: 2px 2px #03bcf4;
+}
+
+#services h1:hover{
+  letter-spacing: 0.5em;
+  transition: ease 0.5s;
 }
 
 #services h5 {
@@ -321,6 +342,9 @@ a span:nth-child(4){
   #subHeader{
     font-size: 20px;
   }
+  #navbar{
+    display: none;
+  }
   #services h3 {
     color: maroon;
     font-size: 1em;
@@ -361,6 +385,9 @@ a span:nth-child(4){
     letter-spacing: normal;
   }
 
+  #navbar{
+    display: none;
+  }
   #subHeader{
     font-size: 20px;
   }
