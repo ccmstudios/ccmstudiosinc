@@ -4,10 +4,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans:wght@300&family=Playfair+Display+SC&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Unicase:wght@300&family=Open+Sans:wght@300;400&family=Playfair+Display+SC&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: #2d2d2d; */
+
 }
 
 /* Header start */
@@ -16,6 +18,10 @@
   font-size: 80px;
   letter-spacing: 1em;
   font-family: "Cormorant Unicase", serif;
+  color: #202020;
+  background-color: #2d2d2d;
+  letter-spacing: 0.1em;
+  text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
 }
 
 #mainHeader h1 {
@@ -34,6 +40,7 @@
 #subHeader {
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
+  background-color: #2d2d2d;
 }
 
 #banner {
@@ -47,20 +54,23 @@
   display: flex;
   list-style: none;
   justify-content: space-evenly;
+  background-color: #2d2d2d;
 }
 
-#navbar li{
+#navbar li {
   text-shadow: 1px 1px black;
+  background-color: #2d2d2d;
 }
 #navbar a {
   text-decoration: none;
+color: #03bcf4;
 }
 /* navbar end */
 
 #domains {
   padding: 40px;
-  background-color: black;
-  color: blue;
+  background-color: #2d2d2d;
+  color: #03bcf4;
   position: relative;
   top: 0;
   left: 0;
@@ -68,17 +78,18 @@
 }
 
 #domains a {
-  color: lightblue;
+  color: #03bcf4;
   font-size: 6em;
   letter-spacing: 15px;
   text-transform: uppercase;
   width: 100%;
   text-align: center;
   -webkit-box-reflect: below 1px linear-gradient();
-  line-height: 0.7em;
+  line-height: 1em;
   outline: none;
   animation: animate 3s linear infinite;
   text-decoration: none;
+  z-index: -1;
 }
 
 @keyframes animate {
@@ -120,10 +131,8 @@
   animation: animate 3s linear infinite;
 }
 
-
-
 #about {
-  background-color: black;
+  background-color: #2d2d2d;
   color: white;
 }
 
@@ -135,23 +144,29 @@
 
 #services {
   justify-content: center;
-  background-color: black;
+  background-color: #2d2d2d;
   color: white;
 }
 
-#about h1{
-  text-shadow: 2px 2px #03bcf4;
+#about h1 {
+  color: #202020;
+  background-color: #2d2d2d;
+  letter-spacing: 0.1em;
+  text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
 }
 
-#about h1:hover{
+#about h1:hover {
   letter-spacing: 0.5em;
   transition: ease 0.5s;
 }
-#services h1{
-  text-shadow: 2px 2px #03bcf4;
+#services h1 {
+  color: #202020;
+  background-color: #2d2d2d;
+  letter-spacing: 0.1em;
+  text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
 }
 
-#services h1:hover{
+#services h1:hover {
   letter-spacing: 0.5em;
   transition: ease 0.5s;
 }
@@ -202,7 +217,10 @@
   justify-content: left;
   color: black;
   text-shadow: 1px 1px gray;
-  background-color: white;
+  color: #202020;
+  background-color: #2d2d2d;
+  letter-spacing: 0.1em;
+  text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
   width: 100%;
   padding: 10px;
   height: fit-content;
@@ -231,12 +249,12 @@
   width: 60px;
 }
 
-#startbutton{
+#startbutton {
   font-weight: bolder;
   position: relative;
   display: inline-block;
- padding: 25px 30px;
- margin: 40px 0;
+  padding: 25px 30px;
+  margin: 40px 0;
   color: #03bcf4;
   font-size: 24px;
   text-decoration: none;
@@ -247,13 +265,11 @@
   -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 
-#startbutton:hover{
+#startbutton:hover {
   background: #03bcf4;
   color: black;
-  box-shadow: 0 0 5px #03bcf4,
-  0 0 25px #03bcf4,
-  0 0 50px #03bcf4,
-  0 0 200px #03bcf4;
+  box-shadow: 0 0 5px #03bcf4, 0 0 25px #03bcf4, 0 0 50px #03bcf4,
+    0 0 200px #03bcf4;
 }
 
 a span {
@@ -261,7 +277,7 @@ a span {
   display: block;
 }
 
-a span:nth-child(1){
+a span:nth-child(1) {
   top: 0;
   right: -100%;
   width: 100%;
@@ -270,16 +286,16 @@ a span:nth-child(1){
   animation: animate1 1s linear infinite;
 }
 
-@keyframes animate1
-{
-  0%{
+@keyframes animate1 {
+  0% {
     left: -100%;
   }
-  50%,100%{
+  50%,
+  100% {
     left: 100%;
   }
 }
-a span:nth-child(2){
+a span:nth-child(2) {
   top: -100%;
   right: 0;
   width: 2px;
@@ -288,16 +304,16 @@ a span:nth-child(2){
   animation: animate2 1s linear infinite;
   animation-delay: 0.25s;
 }
-@keyframes animate2
-{
-  0%{
+@keyframes animate2 {
+  0% {
     top: -100%;
   }
-  50%,100%{
+  50%,
+  100% {
     top: 100%;
   }
 }
-a span:nth-child(3){
+a span:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;
@@ -306,16 +322,16 @@ a span:nth-child(3){
   animation: animate3 1s linear infinite;
   animation-delay: 0.5s;
 }
-@keyframes animate3
-{
-  0%{
+@keyframes animate3 {
+  0% {
     right: -100%;
   }
-  50%,100%{
+  50%,
+  100% {
     right: 100%;
   }
 }
-a span:nth-child(4){
+a span:nth-child(4) {
   bottom: -100%;
   left: 0;
   width: 2px;
@@ -324,12 +340,12 @@ a span:nth-child(4){
   animation: animate4 1s linear infinite;
   animation-delay: 0.75s;
 }
-@keyframes animate4
-{
-  0%{
+@keyframes animate4 {
+  0% {
     bottom: -100%;
   }
-  50%,100%{
+  50%,
+  100% {
     bottom: 100%;
   }
 }
@@ -339,10 +355,10 @@ a span:nth-child(4){
     width: 100%;
     letter-spacing: normal;
   }
-  #subHeader{
+  #subHeader {
     font-size: 20px;
   }
-  #navbar{
+  #navbar {
     display: none;
   }
   #services h3 {
@@ -373,7 +389,7 @@ a span:nth-child(4){
     line-height: normal;
   }
 
-  #domains h3{
+  #domains h3 {
     line-height: normal;
   }
 }
@@ -385,10 +401,10 @@ a span:nth-child(4){
     letter-spacing: normal;
   }
 
-  #navbar{
+  #navbar {
     display: none;
   }
-  #subHeader{
+  #subHeader {
     font-size: 20px;
   }
   #services h3 {
@@ -418,7 +434,7 @@ a span:nth-child(4){
     animation: animate 3s linear infinite;
     text-decoration: none;
   }
-  #domains h3{
+  #domains h3 {
     line-height: normal;
   }
 }

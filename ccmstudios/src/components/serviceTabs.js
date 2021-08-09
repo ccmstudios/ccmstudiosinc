@@ -12,8 +12,8 @@ const ServiceTabs = () => {
         id="DIY"
         className="mb-3"
       >
-        <Tab bg="dark" text="light" eventKey="home" title="DIY Web Design">
-          <h3>Starting at $20.99 Domain + $15.99 Website Builder</h3>
+        <Tab bg="dark" text="light" eventKey="home" title="DIY Web Design" style ={{color: '#03bcf4'}}>
+          <h3  style ={{color: '#03bcf4'}}>Starting at $20.99 Domain + $15.99 Website Builder</h3>
           <br></br>
           <br></br>
           <h5>
@@ -36,6 +36,7 @@ const ServiceTabs = () => {
           text="light"
           eventKey="profile"
           title="Web Design Services Only"
+          style ={{color: '#03bcf4'}}
         >
           <h3>Starting at $250.00 for one Website</h3>
           <br></br>
@@ -61,6 +62,7 @@ const ServiceTabs = () => {
           text="light"
           eventKey="contact"
           title="Complete Web Design Package"
+          style ={{color: '#03bcf4'}}
         >
           <h3>
             Starting at $20.99 Domain + $15.99 Web Hosting and $100.00 Website

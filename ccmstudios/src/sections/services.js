@@ -5,7 +5,7 @@ class Services extends React.Component {
   render() {
     return (
       <div id="services">
-        <h1>SERVICES</h1>
+        <h1 id="servicetabs">SERVICES</h1>
         <br></br>
         <br></br>
         <h3>Click on the tab below to select a package</h3>

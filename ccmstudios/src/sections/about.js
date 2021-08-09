@@ -1,15 +1,15 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import logo from '../assets/images/ccmlogotransparent.png'
 
 class About extends React.Component {
   render() {
     return (
       <div id="about">
         <Card className="text-center" id="about">
-          <Card.Header>
             <h1>ABOUT US</h1>
-          </Card.Header>
+
           <Card.Body>
             <Card.Title>Creative Concepts Manifested</Card.Title>
             <Card.Text>
@@ -27,11 +27,12 @@ class About extends React.Component {
               businesses, and brands to begin their online journey and put their
               digital footprint on the map. Start today by selecting one of our
               Web design services below.
+            <img src={logo} className="App-logo" alt="logo" />
 
                 </p>
+          <h5 className="text-muted">CCM Studios LLC</h5>
             </Card.Text>
           </Card.Body>
-          <Card.Footer className="text-muted">CCM Studios LLC</Card.Footer>
         </Card>
       </div>
     );
