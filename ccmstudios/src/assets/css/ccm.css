@@ -60,6 +60,7 @@
 #navbar li {
   text-shadow: 1px 1px black;
   background-color: #2d2d2d;
+  text-transform: uppercase;
 }
 #navbar a {
   text-decoration: none;
