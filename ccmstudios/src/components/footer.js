@@ -11,11 +11,11 @@ class Footer extends React.Component {
         <h1>CCM Studios LLC</h1>
         <h3>
           <strong>Text:</strong>
-          (980) 279-9329
+          (980) 552-1590
         </h3>
         <h3>
           <strong>Email: </strong> 
-          ccmstudiosinc@gmail.com
+          CCMSTUDIOSINC@GMAIL.COM
         </h3>
         <br></br>
         {/* <Social /> */}

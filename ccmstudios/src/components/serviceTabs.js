@@ -5,7 +5,7 @@ import Startbutton from "./startbutton";
 
 const ServiceTabs = () => {
   return (
-    <div id="servicetabs">
+    <div id="servicetabsmain">
       <Tabs
         bg="dark"
         text="light"

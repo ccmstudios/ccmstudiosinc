@@ -12,6 +12,25 @@
 
 }
 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation-name: rotate;
+  animation-duration: 30s;
+  transform-style: preserve-3d;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate3d(0, 0, 0, 0);
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+
 /* Header start */
 #mainHeader {
   padding: 10px;
@@ -356,6 +375,11 @@ a span:nth-child(4) {
     width: 100%;
     letter-spacing: normal;
   }
+
+  .App-logo{
+    display: none;
+  }
+
   #subHeader {
     font-size: 20px;
   }
@@ -392,6 +416,14 @@ a span:nth-child(4) {
 
   #domains h3 {
     line-height: normal;
+  }
+  #about p{
+    width: 100%;
+  }
+
+  #servicetabsmain h5{
+    width: 100%;
+    padding: 10px;
   }
 }
 
@@ -401,7 +433,9 @@ a span:nth-child(4) {
     width: 100%;
     letter-spacing: normal;
   }
-
+.App-logo{
+  display: none;
+}
   #navbar {
     display: none;
   }
@@ -437,5 +471,13 @@ a span:nth-child(4) {
   }
   #domains h3 {
     line-height: normal;
+  }
+  #about p{
+    width: 100%;
+  }
+
+  #servicetabsmain h5{
+    width: 100%;
+    padding: 10px;
   }
 }

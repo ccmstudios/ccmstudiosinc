@@ -27,9 +27,9 @@ class About extends React.Component {
               businesses, and brands to begin their online journey and put their
               digital footprint on the map. Start today by selecting one of our
               Web design services below.
-            <img src={logo} className="App-logo" alt="logo" />
 
                 </p>
+            <img src={logo} className="App-logo" alt="logo" />
           <h5 className="text-muted">CCM Studios LLC</h5>
             </Card.Text>
           </Card.Body>
