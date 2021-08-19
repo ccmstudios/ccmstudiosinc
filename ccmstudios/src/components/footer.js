@@ -9,6 +9,9 @@ class Footer extends React.Component {
         <br></br>
         <br></br>
         <h1>CCM Studios LLC</h1>
+        <h4 className="text-muted">
+          We are a proud Black Owned Company
+        </h4>
         <h3>
           <strong>Text:</strong>
           (980) 552-1590
