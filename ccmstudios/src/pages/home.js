@@ -40,6 +40,13 @@ class Home extends React.Component{
 {/* Contact */}
             <div>
                 <Domains/>
+                <span id="siteseal">
+          <script
+            async
+            type="text/javascript"
+            src="https://seal.godaddy.com/getSeal?sealID=fk4U77hTp7WC2cjiZtHNWGlZxYjkorMku2iAZCI9PanRfS29HCUb3vSrXTl3"
+          ></script>
+        </span>
                 <Footer/>
             </div>
             </div>
